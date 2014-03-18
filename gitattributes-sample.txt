@@ -1,0 +1,6 @@
+*.xlsx diff=xmlzip
+*.docx diff=xmlzip
+*.pptx diff=xmlzip
+
+*.xls diff=showxls
+

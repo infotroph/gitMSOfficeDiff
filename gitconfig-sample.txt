@@ -1,0 +1,5 @@
+[diff "xmlzip"]
+        textconv = /usr/local/bin/xmlzip.sh
+
+[diff "showxls"]
+        command = /usr/local/bin/gitxlscmp.sh
