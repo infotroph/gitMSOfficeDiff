@@ -24,7 +24,7 @@ Now add these lines (or only the ones of them you want) to your project's .gitat
         *.docx diff=xmlzip
         *.pptx diff=xmlzip
  
-Known bugs: Complains on empty components (notably including the always-present `[Content_Types].xml`), and actually shows all changes to the XML (so good luck finding meaningful changes to an Excel file under all the display-state garbage).
+Note that this shows _all_ changes to the XML, so good luck finding meaningful changes to an Excel file under all the display-state garbage.
 
 ### gitxlscmp.sh
 (As previously seen in [this gist](https://gist.github.com/infotroph/8377075))
